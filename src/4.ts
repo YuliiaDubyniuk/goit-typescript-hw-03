@@ -13,7 +13,7 @@ class Person{
 };
 
 abstract class House {
-    tenants: Person[];
+    tenants: Person[]=[];
     door: boolean;
     constructor(public key: Key) {
     this.door = false;
